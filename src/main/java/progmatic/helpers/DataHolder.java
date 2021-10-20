@@ -15,13 +15,13 @@ public class DataHolder {
     private Map<Long, Book> books;
     private List<CopyOfBook> copiesOfBooks;
 
-    /* ONLY FOR MANUAL TESTING
+
     public void printCopiesInfo() {
         for (CopyOfBook book : copiesOfBooks) {
             System.out.println(book);
         }
     }
-    */
+
 
     public Author getAuthorById(String id) {
         return authors.get(Long.parseLong(id));

@@ -32,6 +32,8 @@ public class DataLoader implements ApplicationRunner {
         dataHolder.setAuthors(loadAuthors());
         dataHolder.setBooks(loadBooks());
         dataHolder.setCopiesOfBooks(loadCopies());
+
+        dataHolder.printCopiesInfo();
     }
 
     private Map<Long, Author> loadAuthors() {
