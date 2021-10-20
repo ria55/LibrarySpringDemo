@@ -1,0 +1,10 @@
+1,J. R. R.,Tolkien
+2,Charles,Dickens
+3,Mór,Jókai,+
+4,Kálmán,Mikszáth,+
+5,Stephen,King
+6,Lev,Tolsztoj
+7,Isaac,Asimov
+8,J. K.,Rowling
+9,Agatha,Christie
+10,Elek,Benedek,+

@@ -1,0 +1,20 @@
+1,1,A gyűrűk ura 1.,2
+2,1,A hobbit,2
+3,2,Karácsonyi ének,2
+4,3,A kőszívű ember fiai,1
+5,3,Szegény gazdagok,1
+6,4,A jó palócok,1
+7,4,A noszty-fiú esete Tóth Marival,1
+8,5,A ragyogás,5
+9,5,Borzalmak városa,5
+10,6,Anna Karenina,1
+11,6,Ivan Iljics halála,1
+12,7,Én a robot,3
+13,7,Alapítvány,3
+14,7,Alapítvány és Birodalom,3
+15,7,Második Alapítvány,3
+16,8,Harry Potter 1.,8
+17,8,Harry Potter 2.,8
+18,9,Tíz kicsi néger,4
+19,9,Poirot és az ABC,4
+20,10,A grófkisasszony,9

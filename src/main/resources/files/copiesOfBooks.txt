@@ -1,0 +1,42 @@
+1,1,Európa,2002,3
+2,1,Európa,2002,3
+3,1,Európa,2002,2
+4,2,Ciceró,2006,3
+5,2,Ciceró,2006,3
+6,2,Ciceró,2006,2
+7,3,Holnap,2000,3
+8,3,Holnap,2000,3
+9,3,Holnap,2000,2
+10,3,Holnap,2000,3
+11,4,Európa,2020,4
+12,5,Corvin,2007,3
+13,5,Corvin,2007,1
+14,6,Helikon,2018,3
+15,6,Helikon,2018,3
+16,7,Holló és Társa,2007,3
+17,8,Európa,1998,2
+18,8,Európa,2006,3
+19,8,Európa,2021,4
+20,9,Európa,2019,3
+21,10,Európa,2010,3
+22,10,Európa,2010,3
+23,11,Európa,2018,3
+24,11,Európa,2018,2
+25,12,Szukits,2004,3
+26,13,Kozmosz Könyvek,1982,2
+27,13,Európa,2002,3
+28,14,Kozmosz Könyvek,1982,3
+29,14,Európa,2020,4
+30,15,Kozmosz Könyvek,1982,3
+31,15,Európa,2003,3
+32,16,Animus,1999,3
+33,16,Animus,1999,2
+34,16,Animus,2010,3
+35,16,Animus,2010,3
+36,17,Animus,2000,1
+37,17,Animus,2016,3
+38,17,Animus,2021,4
+39,18,Európa,1968,2
+40,18,Kossuth,2018,3
+41,19,Palladis,1936,3
+42,20,Tóth Könyvkereskedés és Kiadó Kft.,1998,3
