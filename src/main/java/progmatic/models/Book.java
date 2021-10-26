@@ -1,9 +1,19 @@
 package progmatic.models;
 
+import javax.persistence.Entity;
+import javax.persistence.Enumerated;
+import javax.persistence.Id;
+
+//@Entity
 public class Book extends BaseModel {
+
+    //@Id
+    private long bookId;
 
     private Author author;
     private String title;
+
+    //@Enumerated
     private Genre genre;
 
     public Book() {}

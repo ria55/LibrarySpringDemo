@@ -5,34 +5,52 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+import org.hibernate.annotations.CreationTimestamp;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-public class LibraryUser extends BaseModel implements UserDetails {
+import javax.persistence.*;
 
+@Entity
+@Table
+public class LibraryUser /*extends BaseModel*/ implements UserDetails {
+
+    @Column
     private String firstName;
     private String lastName;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long userId;
+
     private String email;
+
     private String password;
     private String role;
-    private LocalDateTime regTime;
+
+    @CreationTimestamp
+    private LocalDateTime regTime;  // SQL-ben TIMESTAMP
+
+    // TODO transient keyword??
+
+    @Transient
     private boolean isEnable;
 
-    private List<BorrowedBook> books;
+    //private List<BorrowedBook> books;
 
     public LibraryUser() {}
 
     public LibraryUser(long id, String firstName, String lastName, String email, String password,
                        LocalDateTime regTime, boolean isEnable) {
-        super(id);
+        //super(id);
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.password = password;
         this.regTime = regTime;
         this.isEnable = isEnable;
-        books = new ArrayList<>();
+        //books = new ArrayList<>();
     }
 
     public LibraryUser(long id, String firstName, String lastName, String email, String password,
@@ -77,13 +95,13 @@ public class LibraryUser extends BaseModel implements UserDetails {
         this.regTime = regTime;
     }
 
-    public List<BorrowedBook> getBooks() {
+    /*public List<BorrowedBook> getBooks() {
         return books;
     }
 
     public void setBooks(List<BorrowedBook> books) {
         this.books = books;
-    }
+    }*/
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
